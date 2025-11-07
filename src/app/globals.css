@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(66, 66, 66);
     --foreground: #ededed;
   }
 }
@@ -30,15 +30,9 @@ body {
 main {
   margin: 0;
   padding: 0;
-  color: #000;
-  background-color: red;
   display: flex;
   justify-content: center; /* central horizontal */
   align-items: center; 
-}
-
-* {
-  outline: 1px solid red !important;
 }
 
 
